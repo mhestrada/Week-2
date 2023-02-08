@@ -1,19 +1,16 @@
-// create a variable called speedLimit and another called mySpeed
-// set their values to numbers between 1 and 100
-let speedLimit = 50;
-let mySpeed = 65;
+// create two variables, one named alarmSet, the other openDoor
+// set them to a boolean value
+let alarmSet = true;
+let openDoor = false;
 
+// using a conditional, determine if alarm is set. 
+// if alarm is set and door is set to open, print "Sound Alarm!" to the console
+// otherwise, print "Everything is fine." to the console.
 
-// using a conditional, determine if mySpeed is greater than the speedLimit
-// if true, print "Slow Down! Mom is mad!" to the console
-// if mySpeed is equal to the speedLimit, print "Everyone is happy!" to the console
-// if mySpeed is less than the speedLimit, print "Speed up! Dad is mad!"
-if(mySpeed > speedLimit){
-    console.log("Slow Down! Mom is mad!")
-} else if(mySpeed == speedLimit){
-    console.log("Everyone is happy!")
+if(alarmSet && openDoor) {
+    console.log("Sound Alarm!")
 } else {
-    console.log("Speed up! Dad is mad!")
+    console.log("Everything is fine.")
 }
 
 
